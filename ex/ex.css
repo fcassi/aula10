@@ -53,8 +53,9 @@ div {
 /* ANIMAÇÃO 3*/
 
 .coracao3 {
-    animation: stop 1s 1 alternate;
+    animation: stop 1s 1 alternate ;
     transform-origin: center;
+    animation-fill-mode: forwards;
 }
 
 @keyframes stop {
