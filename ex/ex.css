@@ -1,0 +1,68 @@
+body {
+    text-align: center;
+}
+
+div {
+
+    font-size: 110px;
+    color: red;
+
+}
+
+
+/* ANIMAÇÃO 1 */
+.coracao1 {
+    transition: .5s all;
+    width: fit-content ;
+    margin: 0 auto;
+}
+
+.coracao1:hover {
+    color: green;
+    cursor: pointer;
+    animation: hover .25s infinite alternate;
+}
+
+@keyframes hover {
+
+    to{
+        scale: 1.5;
+    }
+    
+}
+
+/*------------*/
+
+/* ANIMAÇÃO 2 */
+
+.coracao2 {
+    animation: beat .25s infinite alternate;
+    transform-origin: center;
+}
+
+@keyframes beat {
+    
+    to {
+        scale: 1.5;
+    }
+
+}
+
+/*------------*/
+
+/* ANIMAÇÃO 3*/
+
+.coracao3 {
+    animation: stop 1s 1 alternate;
+    transform-origin: center;
+}
+
+@keyframes stop {
+    
+    to {
+        scale: 1.5;
+    }
+
+}
+
+/*-------------*/
