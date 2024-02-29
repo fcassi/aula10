@@ -1,3 +1,3 @@
 ## EXERCÍCIO ANIMATION
 
-<img src="downloads/print.PNG" alt="print">
+<img src="imgs/print.PNG" alt="print">
