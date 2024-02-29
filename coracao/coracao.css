@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+}
+
+.coracao {
+    font-size: 150px;
+    color: red;
+    animation: beat .25s infinite alternate;
+    transform-origin: center;
+}
+
+@keyframes beat {
+    
+    to {
+        scale: 1.5;
+    }
+
+}
+
